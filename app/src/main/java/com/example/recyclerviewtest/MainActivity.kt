@@ -34,8 +34,8 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = layoutManager
 
         // 创建适配器并设置给 RecyclerView
-        val adapter = FruitAdapter(fruitList)
-        recyclerView.adapter = adapter
+        val adapter1 = FruitAdapter(fruitList)
+        recyclerView.adapter = adapter1
     }
 
     /**
