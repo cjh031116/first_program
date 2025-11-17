@@ -77,7 +77,7 @@ class FruitAdapter(private val fruitList: List<Fruit>) :
         val viewHolder = ViewHolder(view)
 
         // 为整个列表项设置点击事件
-        viewHolder.itemView.setOnClickListener {
+        viewHolder.itemView.setOnClickListner {
             val position = viewHolder.adapterPosition // 获取点击项的位置
             val fruit = fruitList[position]
             Toast.makeText(parent.context, "你点击了: ${fruit.name}", Toast.LENGTH_SHORT).show()
